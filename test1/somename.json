@@ -1,0 +1,80 @@
+[
+  {
+    "line": 13,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-04T06:12:14.762Z",
+        "line": 14,
+        "name": "Success",
+        "description": "",
+        "id": "login;success",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2125600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user in home page",
+            "match": {
+              "location": "datatable.user_in_home_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "test",
+                  "565654"
+                ]
+              },
+              {
+                "cells": [
+                  "sam",
+                  "75654"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 60500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "CLick on login button",
+            "match": {
+              "location": "datatable.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Home page is displayed",
+            "match": {
+              "location": "datatable.home_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:test2/login.feature",
+    "tags": []
+  }
+]
